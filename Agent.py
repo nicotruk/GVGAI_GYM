@@ -6,5 +6,6 @@ class Agent():
         self.name = "randomAgent"
 
     def act(self, stateObs, actions):
+        print("AAA")
         action_id = randint(0,len(actions)-1)
         return action_id
